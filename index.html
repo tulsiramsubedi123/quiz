@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Life Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <div id="quiz-header">
+            <h1>Student Life Quiz</h1>
+            <div id="question-container">
+                <div id="question">Question text</div>
+                <div class="options">
+                    <label>
+                        <input type="radio" name="option" class="option" value="1">
+                        <span id="option1">Option 1</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="2">
+                        <span id="option2">Option 2</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="3">
+                        <span id="option3">Option 3</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="option" class="option" value="4">
+                        <span id="option4">Option 4</span>
+                    </label>
+                </div>
+                <button id="submit">Submit Answer</button>
+            </div>
+            <div id="result-container" style="display: none;">
+                <h2>Your Score: <span id="score"></span></h2>
+                <button id="restart">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
